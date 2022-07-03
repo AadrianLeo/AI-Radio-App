@@ -7,3 +7,5 @@ AI Radio is an radio application with an AI assistant where you can command your
 ### `# For flutter packages run: pub get  && to run flutter project run : flutter run --no-sound-null-safety and dont run from the banner because athe application version has old version and runs on no sound null safety.`
 
 ### `# Change Your api Keys from the code of Alan AI`.
+
+### `# Create the ALAN_AI file and AI_DATA file copy and paste the code in alan ai dashboard and save the file the files are given in the codes files`.
