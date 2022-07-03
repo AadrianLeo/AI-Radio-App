@@ -1,16 +1,9 @@
 # ai_radio
 
-A new Flutter project.
+#
+# Introduction
+AI Radio is an radio application with an AI assistant where you can command your application play song stop the song. search the radio song by categories by commands. AI assistant commands are made with the use of Alan AI. and Radio song and category are inputed from an Radio api links. This application is coded in flutter and Alan AI like API's are used.
 
-## Getting Started
+### `# For flutter packages run: pub get  && to run flutter project run : flutter run --no-sound-null-safety and dont run from the banner because athe application version has old version and runs on no sound null safety.`
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### `# Change Your api Keys from the code of Alan AI`.
