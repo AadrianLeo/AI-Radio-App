@@ -51,7 +51,8 @@ class _HomePageState extends State<HomePage> {
 
   setupAlan() {
     AlanVoice.addButton(
-        "6af845c12ce1caf238c61341d910ef7c2e956eca572e1d8b807a3e2338fdd0dc/stage");
+        <YOUR_ALAN_BUTTON_KEY>);
+//     "6af845c12ce1caf238c61341d910ef7c2e956eca572e1d/stage" this is an example of my key i have deleted some key letters for security.
 
     AlanVoice.onCommand.add((command) {
       debugPrint("got new command ${command.toString()}");
