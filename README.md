@@ -7,6 +7,10 @@ AI Radio is an radio application with an AI assistant where you can command your
 
 APP is under developement
 
+You can download the apk from the [release](https://github.com/AadrianLeo/AI-Radio-App/releases/)
+
+You can even play it online on web : [web link](https://ai-radio.netlify.app/)
+
 ### `# For flutter packages run: pub get  && to run flutter project run : flutter run --no-sound-null-safety and dont run from the banner because athe application version has old version and runs on no sound null safety.`
 
 ### `# Change Your api Keys from the code of Alan AI`.
