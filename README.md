@@ -28,16 +28,22 @@ You can even play it online on web : [web link](https://ai-radio.netlify.app/) w
         Folder Location : lib > pages > home_pages.dart
         
         Code change : In setupAlan function change the ALAN AI API KEy
+        
+     d. Copy and paste the file codes from the below scripts in the alan ai scripts : (File links : [AI_DATA](https://github.com/AadrianLeo/AI-Radio-App/blob/main/AI_DATA) , [AI_RADIO](https://github.com/AadrianLeo/AI-Radio-App/blob/main/AI_RADIO))
+        
+        After creating project in alan ai > click on add scrip > Name the script as AI_DATA > copy the script from the AI_DATA file > amd paste it over there
+        
+        Same for the AI_RADIO file
      
-     d. To run the flutter application select an emulator or connect your mobile with the you laptop/pc with usb :
+     e. To run the flutter application select an emulator or connect your mobile with the you laptop/pc with usb :
      
         If you are going with your mobile phone enable usb debugging in developer option.
       
-     e. Now Run the flutter application. To run the flutter application run command :  🎉
+     f. Now Run the flutter application. To run the flutter application run command :  🎉
          
         Flutter run
       
-     d. Congratulation you are all set and got to go. 🤹‍ 
+     g. Congratulation you are all set and got to go. 🤹‍ 
          
 #
 
