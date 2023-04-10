@@ -47,6 +47,8 @@ You can even play it online on web : [web link](https://ai-radio.netlify.app/) w
          
 #
 
+If the Ai does not work try deleting the chache data and closing the application and rerunning it again the problem will be fixed.
+
 If you encounter any issues or bugs while using our website, please do not hesitate to write it in the discussion in releases. It is helping me learn and develop.
 #
 Have Fun.😉
