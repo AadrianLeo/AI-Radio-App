@@ -50,6 +50,7 @@ android {
         applicationId "com.example.ai_radio"
         minSdkVersion 23
         targetSdkVersion 32
+        targetSdkVersion 32
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName
     }
