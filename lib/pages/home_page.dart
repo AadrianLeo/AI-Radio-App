@@ -7,6 +7,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:velocity_x/velocity_x.dart';
 
+
 class HomePage extends StatefulWidget {
   const HomePage({Key key}) : super(key: key);
 
@@ -40,7 +41,7 @@ class _HomePageState extends State<HomePage> {
     fetchRadios();
 
     _audioPlayer.onPlayerStateChanged.listen((event) {
-      if (event == AudioPlayerState.PLAYING) {
+      if (event == PlayerState.PLAYING) {
         _isPlaying = true;
       } else {
         _isPlaying = false;
@@ -50,12 +51,11 @@ class _HomePageState extends State<HomePage> {
   }
 
   setupAlan() {
-    AlanVoice.addButton(
-        "6af845c12ce1caf238c61341d910ef7c2e956eca572e1d8b807a3e2338fdd0dc/stage");
+    AlanVoice.addButton("6af845c12ce1caf238c61341d910ef7c2e956eca572e1d8b807a3e2338fdd0dc/stage");
 
     AlanVoice.onCommand.add((command) {
-      debugPrint("got new command ${command.toString()}");
-    });
+    debugPrint("got new command ${command.toString()}");
+  });
 
     AlanVoice.callbacks.add((command) => _handleCommand(command.data));
   }
@@ -203,11 +203,11 @@ class _HomePageState extends State<HomePage> {
           radios != null
               ? VxSwiper.builder(
                   itemCount: radios.length,
-                  aspectRatio: context.mdWindowSize == MobileWindowSize.xsmall
+                  aspectRatio: context.mdWindowSize == 320
                       ? 1.0
-                      : context.mdWindowSize == MobileWindowSize.medium
+                      : context.mdWindowSize == 412
                           ? 2.0
-                          : 3.0,
+                          : 2.0,
                   enlargeCenterPage: true,
                   onPageChanged: (index) {
                     _selectedRadio = radios[index];
